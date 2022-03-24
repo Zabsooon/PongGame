@@ -12,7 +12,7 @@ class Paddle(Turtle):
         self.goto(position)
 
     def go_up(self):
-        self.sety(self.ycor() + 20)
+        self.sety(self.ycor() + 30)
 
     def go_down(self):
-        self.sety(self.ycor() - 20)
+        self.sety(self.ycor() - 30)
